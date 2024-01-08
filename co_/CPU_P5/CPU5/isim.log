@@ -1,0 +1,86 @@
+ISim log file
+Running: C:\Users\hp\Desktop\co\CPU_P5\CPU5\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/hp/Desktop/co/CPU_P5/CPU5/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 190@00003000: $ 1 <= 0000ff00
+                 210@00003004: $ 2 <= 00aa0000
+                 230@00003008: $ 3 <= 00aaff00
+                 250@0000300c: $31 <= 00003014
+                 270@00003010: $ 3 <= 00aaceec
+                 290@00003014: $ 3 <= 00aaff00
+                 350@00003020: $ 1 <= 00000000
+                 370@00003024: $ 1 <= 0000ff00
+                 390@00003028: $ 1 <= 0000ff00
+                 430@00003030: $ 3 <= 00aaff00
+                 450@00003034: $ 3 <= 0000ff00
+                 470@00003038: $ 1 <= 0000ff00
+                 490@0000303c: $ 2 <= 00aa0000
+                 510@00003040: $ 1 <= 00140000
+                 530@00003044: $ 2 <= ffff0000
+                 550@00003048: $ 1 <= 00145678
+                 570@0000304c: $ 2 <= ffffabcd
+                 610@00003054: $16 <= 00000000
+                 630@00003058: $ 3 <= 00000000
+                 650@0000305c: $ 1 <= 00000004
+                 650@00003060: *00000004 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 190@00003000: $ 1 <= 0000ff00
+                 210@00003004: $ 2 <= 00aa0000
+                 230@00003008: $ 3 <= 00aaff00
+                 250@0000300c: $31 <= 00003014
+                 270@00003010: $ 3 <= 00aaceec
+                 290@00003014: $ 3 <= 00aaff00
+                 350@00003020: $ 1 <= 00000000
+                 370@00003024: $ 1 <= 0000ff00
+                 390@00003028: $ 1 <= 0000ff00
+                 430@00003030: $ 3 <= 00aaff00
+                 450@00003034: $ 3 <= 0000ff00
+                 470@00003038: $ 1 <= 0000ff00
+                 490@0000303c: $ 2 <= 00aa0000
+                 510@00003040: $ 1 <= 00140000
+                 530@00003044: $ 2 <= ffff0000
+                 550@00003048: $ 1 <= 00145678
+                 570@0000304c: $ 2 <= ffffabcd
+                 610@00003054: $16 <= 00000000
+                 630@00003058: $ 3 <= 00000000
+                 650@0000305c: $ 1 <= 00000004
+                 650@00003060: *00000004 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 190@00003000: $ 1 <= 0000ff00
+                 210@00003004: $ 2 <= 00aa0000
+                 230@00003008: $ 3 <= 00aaff00
+                 250@0000300c: $31 <= 00003014
+                 270@00003010: $ 3 <= 00aaceec
+                 290@00003014: $ 3 <= 00aaff00
+                 350@00003020: $ 1 <= 00000000
+                 370@00003024: $ 1 <= 0000ff00
+                 390@00003028: $ 1 <= 0000ff00
+                 430@00003030: $ 3 <= 00aaff00
+                 450@00003034: $ 3 <= 0000ff00
+                 470@00003038: $ 1 <= 0000ff00
+                 490@0000303c: $ 2 <= 00aa0000
+                 510@00003040: $ 1 <= 00140000
+                 530@00003044: $ 2 <= ffff0000
+                 550@00003048: $ 1 <= 00145678
+                 570@0000304c: $ 2 <= ffffabcd
+                 610@00003054: $16 <= 00000000
+                 630@00003058: $ 3 <= 00000000
+                 650@0000305c: $ 1 <= 00000004
+                 650@00003060: *00000004 <= 00000000

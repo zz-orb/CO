@@ -1,0 +1,73 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/Desktop/CPU7/mips_txt_isim_beh.exe -prj /home/co-eda/Desktop/CPU7/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/WREG.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/MUX_GRF_WD.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/MUX_ALU_B.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/MREG.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/MDU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/MCU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/HMUX_DM_M.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/HMUX_CMP_D.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/HMUX_ALU_E.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/HCU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/EREG.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/DREG.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/DE.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/CP0.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/CMP.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/BE.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/TC.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/CPU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/Bridge.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/CPU7/mips_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/CPU7/CPU.v" Line 255: Port Busy is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/CPU7/CPU.v" Line 359: Port GRF_WA is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/CPU7/CPU.v" Line 450: Port Busy is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/CPU7/CPU.v" Line 541: Port Busy is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 83548 KB
+Fuse CPU Usage: 1170 ms
+Compiling module PC
+Compiling module DREG
+Compiling module MCU
+Compiling module GRF
+Compiling module CMP
+Compiling module EXT
+Compiling module NPC
+Compiling module EREG
+Compiling module MUX_ALU_B
+Compiling module ALU
+Compiling module MDU
+Compiling module MREG
+Compiling module CP0
+Compiling module BE
+Compiling module DE
+Compiling module WREG
+Compiling module MUX_GRF_WD
+Compiling module HCU
+Compiling module HMUX_CMP_D
+Compiling module HMUX_ALU_E
+Compiling module HMUX_DM_M
+Compiling module CPU
+Compiling module Bridge
+Compiling module TC
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 27 Verilog Units
+Built simulation executable /home/co-eda/Desktop/CPU7/mips_txt_isim_beh.exe
+Fuse Memory Usage: 89904 KB
+Fuse CPU Usage: 1230 ms
+GCC CPU Usage: 1500 ms

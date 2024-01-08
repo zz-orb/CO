@@ -1,0 +1,37 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/hp/Desktop/CPU2/CPU2/mips_tb_isim_beh.exe -prj C:/Users/hp/Desktop/CPU2/CPU2/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/PC.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/NPC.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/IM.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/GRF.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/EXT.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/DM.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/Control.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/ALU_Control.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/ALU.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/mips.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU2/CPU2/mips_tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module IM
+Compiling module Control
+Compiling module ALU_Control
+Compiling module EXT
+Compiling module ALU
+Compiling module GRF
+Compiling module DM
+Compiling module NPC
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/hp/Desktop/CPU2/CPU2/mips_tb_isim_beh.exe
+Fuse Memory Usage: 33476 KB
+Fuse CPU Usage: 483 ms

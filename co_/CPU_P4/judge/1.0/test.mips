@@ -1,0 +1,598 @@
+lable1:
+lui $21, 23316
+lable2:
+lui $15, 28759
+lable3:
+sw $17 0($0)
+lable4:
+lui $18, 11876
+lable5:
+lui $13, 60251
+lable6:
+lw $17 0($0)
+lable7:
+lw $28 0($0)
+lable8:
+lw $27 0($0)
+lable9:
+add $28, $4, $1
+lable10:
+beq $29, $19, lable18
+lable11:
+add $21, $15, $2
+lable12:
+sub $27, $4, $18
+lable13:
+sw $31 4($0)
+lable14:
+ori $7, $11, 38244
+lable15:
+sub $2, $21, $24
+lable16:
+add $28, $28, $31
+lable17:
+add $4, $14, $0
+lable18:
+add $18, $19, $3
+lable19:
+lui $22, 39323
+lable20:
+lw $21 4($0)
+lable21:
+sw $3 8($0)
+lable22:
+lui $25, 9240
+lable23:
+add $20, $7, $15
+lable24:
+sw $26 12($0)
+lable25:
+ori $18, $26, 3282
+lable26:
+add $16, $15, $6
+lable27:
+beq $20, $3, lable37
+lable28:
+sub $22, $17, $17
+lable29:
+lw $12 4($0)
+lable30:
+sw $6 16($0)
+lable31:
+lw $1 8($0)
+lable32:
+sub $17, $9, $11
+lable33:
+sw $1 20($0)
+lable34:
+beq $21, $12, lable37
+lable35:
+beq $18, $18, lable38
+lable36:
+lui $1, 20875
+lable37:
+add $4, $10, $16
+lable38:
+beq $25, $3, lable40
+lable39:
+add $1, $30, $23
+lable40:
+sub $5, $23, $15
+lable41:
+sub $31, $27, $11
+lable42:
+lw $25 16($0)
+lable43:
+lui $30, 38819
+lable44:
+sub $20, $10, $9
+lable45:
+sw $12 24($0)
+lable46:
+add $31, $24, $17
+lable47:
+add $2, $6, $25
+lable48:
+add $29, $14, $27
+lable49:
+sw $25 28($0)
+lable50:
+sub $30, $0, $9
+lable51:
+lw $26 16($0)
+lable52:
+sub $18, $5, $20
+lable53:
+sw $1 32($0)
+lable54:
+sub $21, $13, $9
+lable55:
+add $1, $30, $8
+lable56:
+ori $3, $19, 50407
+lable57:
+add $18, $24, $16
+lable58:
+sub $24, $15, $30
+lable59:
+lui $9, 20285
+lable60:
+sub $5, $12, $11
+lable61:
+lui $22, 63886
+lable62:
+beq $5, $4, lable72
+lable63:
+lw $24 12($0)
+lable64:
+lui $15, 48640
+lable65:
+sub $16, $26, $12
+lable66:
+lw $24 32($0)
+lable67:
+sub $17, $28, $1
+lable68:
+sub $19, $13, $0
+lable69:
+sub $19, $3, $1
+lable70:
+lui $24, 11518
+lable71:
+add $17, $9, $4
+lable72:
+sub $20, $10, $20
+lable73:
+sub $20, $31, $20
+lable74:
+add $1, $27, $6
+lable75:
+lui $7, 39423
+lable76:
+ori $14, $13, 24136
+lable77:
+sub $22, $13, $14
+lable78:
+sub $20, $30, $15
+lable79:
+sub $23, $22, $0
+lable80:
+beq $27, $29, lable83
+lable81:
+ori $4, $23, 23575
+lable82:
+beq $14, $18, lable83
+lable83:
+sub $24, $27, $13
+lable84:
+sub $6, $18, $30
+lable85:
+sub $1, $0, $26
+lable86:
+add $27, $26, $1
+lable87:
+sub $23, $28, $17
+lable88:
+sub $2, $16, $30
+lable89:
+sw $28 36($0)
+lable90:
+ori $30, $13, 51130
+lable91:
+sub $17, $3, $5
+lable92:
+lw $10 8($0)
+lable93:
+add $7, $27, $3
+lable94:
+sub $8, $9, $10
+lable95:
+sub $17, $8, $30
+lable96:
+lw $5 0($0)
+lable97:
+add $15, $22, $7
+lable98:
+lui $20, 61614
+lable99:
+sub $24, $11, $22
+lable100:
+sub $17, $0, $27
+lable101:
+sub $13, $13, $28
+lable102:
+add $25, $21, $21
+lable103:
+add $17, $25, $7
+lable104:
+add $27, $6, $20
+lable105:
+sw $15 40($0)
+lable106:
+lw $25 0($0)
+lable107:
+beq $23, $14, lable111
+lable108:
+sub $31, $15, $17
+lable109:
+sub $20, $10, $9
+lable110:
+add $24, $4, $2
+lable111:
+sub $27, $26, $28
+lable112:
+sub $3, $28, $14
+lable113:
+lw $8 0($0)
+lable114:
+sub $28, $27, $13
+lable115:
+sw $30 44($0)
+lable116:
+sub $21, $30, $12
+lable117:
+sw $15 48($0)
+lable118:
+beq $15, $8, lable121
+lable119:
+beq $3, $4, lable126
+lable120:
+lui $5, 10231
+lable121:
+sub $19, $29, $26
+lable122:
+lui $13, 17590
+lable123:
+add $31, $1, $0
+lable124:
+sub $28, $15, $8
+lable125:
+lw $22 24($0)
+lable126:
+lui $6, 43471
+lable127:
+beq $14, $26, lable129
+lable128:
+sub $29, $21, $17
+lable129:
+lui $16, 6273
+lable130:
+beq $8, $10, lable139
+lable131:
+add $12, $9, $23
+lable132:
+sub $4, $6, $27
+lable133:
+add $23, $14, $15
+lable134:
+ori $20, $21, 10493
+lable135:
+sub $5, $8, $9
+lable136:
+sub $23, $24, $8
+lable137:
+add $16, $17, $21
+lable138:
+add $4, $28, $2
+lable139:
+sub $31, $9, $2
+lable140:
+lw $6 20($0)
+lable141:
+sub $15, $31, $15
+lable142:
+lui $8, 42394
+lable143:
+sw $23 52($0)
+lable144:
+sw $5 56($0)
+lable145:
+beq $12, $15, lable149
+lable146:
+lui $28, 54746
+lable147:
+add $11, $28, $25
+lable148:
+sub $5, $25, $27
+lable149:
+sub $24, $3, $16
+lable150:
+beq $30, $4, lable153
+lable151:
+sub $12, $18, $27
+lable152:
+add $15, $31, $15
+lable153:
+add $23, $15, $10
+lable154:
+ori $30, $23, 38973
+lable155:
+sub $31, $28, $31
+lable156:
+add $25, $26, $0
+lable157:
+sub $28, $7, $20
+lable158:
+sub $17, $1, $26
+lable159:
+add $5, $3, $17
+lable160:
+add $15, $25, $29
+lable161:
+lw $1 32($0)
+lable162:
+add $4, $7, $21
+lable163:
+add $9, $2, $16
+lable164:
+beq $5, $21, lable172
+lable165:
+add $8, $2, $19
+lable166:
+lui $28, 20044
+lable167:
+sub $25, $9, $16
+lable168:
+lui $20, 51648
+lable169:
+beq $30, $22, lable172
+lable170:
+ori $6, $12, 56913
+lable171:
+add $24, $0, $9
+lable172:
+lui $6, 46484
+lable173:
+sub $16, $17, $21
+lable174:
+lui $5, 43781
+lable175:
+add $1, $0, $16
+lable176:
+sw $30 60($0)
+lable177:
+lui $13, 47529
+lable178:
+lui $26, 50458
+lable179:
+sw $31 64($0)
+lable180:
+lw $24 56($0)
+lable181:
+add $0, $14, $2
+lable182:
+sub $21, $31, $22
+lable183:
+lui $8, 56356
+lable184:
+lui $23, 51094
+lable185:
+add $18, $16, $14
+lable186:
+lui $6, 19704
+lable187:
+sub $19, $13, $9
+lable188:
+sub $25, $14, $17
+lable189:
+sw $1 68($0)
+lable190:
+sw $4 72($0)
+lable191:
+add $3, $15, $3
+lable192:
+lw $20 24($0)
+lable193:
+beq $28, $7, lable198
+lable194:
+ori $1, $11, 58233
+lable195:
+lw $3 0($0)
+lable196:
+lw $28 40($0)
+lable197:
+add $23, $20, $20
+lable198:
+sw $3 76($0)
+lable199:
+sub $26, $8, $9
+lable200:
+add $20, $2, $0
+lable201:
+ori $17, $11, 9561
+lable202:
+sub $15, $28, $10
+lable203:
+add $30, $26, $29
+lable204:
+beq $12, $6, lable211
+lable205:
+sub $31, $23, $3
+lable206:
+ori $28, $3, 1976
+lable207:
+ori $14, $23, 61032
+lable208:
+ori $0, $3, 17205
+lable209:
+sub $12, $25, $12
+lable210:
+ori $6, $3, 11090
+lable211:
+add $28, $24, $14
+lable212:
+beq $5, $7, lable213
+lable213:
+sub $15, $12, $19
+lable214:
+add $10, $22, $2
+lable215:
+beq $12, $23, lable224
+lable216:
+sub $17, $7, $14
+lable217:
+lw $18 68($0)
+lable218:
+add $26, $10, $8
+lable219:
+add $30, $26, $22
+lable220:
+lw $0 44($0)
+lable221:
+sub $31, $26, $28
+lable222:
+sw $28 80($0)
+lable223:
+add $28, $2, $14
+lable224:
+beq $25, $11, lable229
+lable225:
+sw $30 84($0)
+lable226:
+add $21, $24, $31
+lable227:
+lui $8, 49559
+lable228:
+add $9, $29, $23
+lable229:
+ori $31, $0, 12229
+lable230:
+sub $8, $12, $16
+lable231:
+lw $15 28($0)
+lable232:
+add $26, $24, $13
+lable233:
+ori $14, $20, 36039
+lable234:
+add $0, $17, $13
+lable235:
+add $12, $11, $26
+lable236:
+lw $19 72($0)
+lable237:
+sub $25, $0, $8
+lable238:
+sub $19, $17, $11
+lable239:
+add $18, $19, $17
+lable240:
+sw $10 88($0)
+lable241:
+sub $20, $21, $25
+lable242:
+lui $3, 2513
+lable243:
+lw $14 68($0)
+lable244:
+sub $26, $2, $21
+lable245:
+lui $28, 23711
+lable246:
+add $3, $19, $6
+lable247:
+sub $7, $18, $20
+lable248:
+sub $30, $21, $12
+lable249:
+add $20, $29, $23
+lable250:
+add $9, $16, $11
+lable251:
+add $4, $10, $1
+lable252:
+sub $15, $29, $24
+lable253:
+add $8, $17, $25
+lable254:
+sw $23 92($0)
+lable255:
+sw $30 96($0)
+lable256:
+beq $18, $14, lable258
+lable257:
+lui $30, 10096
+lable258:
+add $11, $22, $30
+lable259:
+sub $21, $3, $25
+lable260:
+sub $14, $9, $16
+lable261:
+add $8, $27, $7
+lable262:
+beq $24, $24, lable265
+lable263:
+sub $31, $3, $31
+lable264:
+add $21, $30, $23
+lable265:
+add $24, $24, $1
+lable266:
+sub $7, $30, $2
+lable267:
+ori $9, $15, 34146
+lable268:
+lw $4 48($0)
+lable269:
+sub $30, $24, $28
+lable270:
+beq $31, $17, lable279
+lable271:
+ori $17, $31, 40007
+lable272:
+add $11, $24, $16
+lable273:
+sub $21, $2, $0
+lable274:
+sub $22, $12, $8
+lable275:
+sub $6, $10, $20
+lable276:
+lw $28 28($0)
+lable277:
+sub $28, $12, $9
+lable278:
+add $15, $23, $7
+lable279:
+ori $27, $18, 10347
+lable280:
+ori $23, $12, 9525
+lable281:
+sw $28 100($0)
+lable282:
+sub $2, $4, $1
+lable283:
+ori $11, $28, 4250
+lable284:
+sub $12, $22, $5
+lable285:
+lw $22 64($0)
+lable286:
+lw $3 32($0)
+lable287:
+add $23, $2, $15
+lable288:
+add $28, $20, $3
+lable289:
+sub $12, $21, $20
+lable290:
+ori $20, $25, 33069
+lable291:
+sw $3 104($0)
+lable292:
+sub $21, $10, $15
+lable293:
+sub $9, $10, $28
+lable294:
+lw $30 28($0)
+lable295:
+sub $3, $12, $12
+lable296:
+sub $7, $13, $31
+lable297:
+beq $6, $3, lable299
+lable298:
+sub $1, $3, $22
+lable299:
+lui $1, 14166

@@ -1,0 +1,60 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips_txt_isim_beh.exe -prj C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/WREG.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/PC.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/NPC.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/MUX_GRF_WD.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/MUX_ALU_B.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/MREG.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/MDU.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/MCU.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/HMUX_DM_M.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/HMUX_CMP_D.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/HMUX_ALU_E.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/HCU.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/GRF.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/EXT.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/EREG.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/DREG.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/DE.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/CMP.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/BE.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/ALU.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips.v" into library work
+Analyzing Verilog file "C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips_tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips.v" Line 198: Port Busy is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips.v" Line 287: Port GRF_WA is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips.v" Line 357: Port Busy is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/hp/Desktop/CPU_P6/CPU6_1/mips.v" Line 422: Port Busy is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module DREG
+Compiling module MCU
+Compiling module GRF
+Compiling module CMP
+Compiling module EXT
+Compiling module NPC
+Compiling module EREG
+Compiling module MUX_ALU_B
+Compiling module ALU
+Compiling module MDU
+Compiling module MREG
+Compiling module BE
+Compiling module DE
+Compiling module WREG
+Compiling module MUX_GRF_WD
+Compiling module HCU
+Compiling module HMUX_CMP_D
+Compiling module HMUX_ALU_E
+Compiling module HMUX_DM_M
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+FATAL_ERROR:Simulator:Fuse.cpp:209:1.133 - Failed to compile one of the generated C files. Please recompile with -mt off -v 1 switch to identify which design unit failed.  For technical support on this issue, please visit http://www.xilinx.com/support.
